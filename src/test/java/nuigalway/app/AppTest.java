@@ -12,8 +12,9 @@ import org.junit.Test;
  */
 public class AppTest 
 {
+	/*
 	@Test
-	public void studentTest() {
+	public void studentTestName() {
 			
 		String studentName = "bob";
 		int studentAge = 34;
@@ -30,6 +31,24 @@ public class AppTest
 	
 	
 	}
+	@Test
+	public void studentTestUserName() {
+			
+		String studentName = "bob";
+		int studentAge = 34;
+		int studentId = 144443;
+		DateTime sdob = new DateTime(1981, 2, 26, 12, 0, 0, 0);
+		
+		
+		
+		//Module module = new Module( 'CT417','softeng');
+		Student student = new Student(studentName, studentAge, studentId, sdob);
+		
+		assertTrue(student.getUsername().contentEquals("bob"));
+	}
+	*/
+	
+	
 	
     
     @Test
