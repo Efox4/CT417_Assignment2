@@ -62,11 +62,4 @@ public class Student
     	this.dob = dob;
     }
 
-
-
-
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
 }
