@@ -54,10 +54,10 @@ public class AppTest
 		module.addStudent(student);
 		
 		
-		assertTrue(module.getStudents().get(0).getId() == (144443));
+		assertTrue(module.getStudents().get(0).getId() == (14443));
 	}
 	
-public void CourseTest() {
+	public void CourseTest() {
 		
 		String studentName = "bob";
 		int studentAge = 34;
