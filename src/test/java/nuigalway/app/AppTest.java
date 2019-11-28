@@ -54,7 +54,7 @@ public class AppTest
 		module.addStudent(student);
 		
 		
-		assertTrue(module.getStudents().get(0).getId() == (14443));
+		assertTrue(module.getStudents().get(0).getId() == (144443));
 	}
 	@Test
 	public void CourseTest() {
