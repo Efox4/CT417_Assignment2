@@ -40,7 +40,7 @@ public class AppTest
 		
 		assertTrue(student.getUsername().contentEquals("bob34"));
 	}
-	
+	@Test
 	public void ModuleTest() {
 		
 		String studentName = "bob";
@@ -56,7 +56,7 @@ public class AppTest
 		
 		assertTrue(module.getStudents().get(0).getId() == (14443));
 	}
-	
+	@Test
 	public void CourseTest() {
 		
 		String studentName = "bob";
